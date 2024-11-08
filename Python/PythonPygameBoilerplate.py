@@ -1,7 +1,7 @@
 import pygame #MAKE SURE PYGAME IS INSTALLED
 
 #CLIENT VARS
-HEIGHT, WIDTH = 600, 600 #display size (hxw)
+HEIGHT, WIDTH = 600, 600 #display size (height x width)
 FPS = 60 #change fps
 
 #DISPLAY
