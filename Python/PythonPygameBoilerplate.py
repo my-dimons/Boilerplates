@@ -1,17 +1,17 @@
-import pygame #MAKE SURE PYGAME IS INSTALLED
+import pygame # MAKE SURE PYGAME IS INSTALLED
 
-#CLIENT VARS
-HEIGHT, WIDTH = 600, 600 #display size (height x width)
-FPS = 60 #change fps
+# CLIENT
+HEIGHT, WIDTH = 600, 600 # Display size (height x width)
+FPS = 60 # Change fps
 
-#DISPLAY
+# DISPLAY
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Game in Pygame")
 
 
 def main():
 
-    #CODE HERE
+    # CODE HERE (RUNS ONCE AT START)
 
     run = True
     clock = pygame.time.Clock()
@@ -21,12 +21,12 @@ def main():
             if event.type == pygame.QUIT:
                 run = False
 
-        #CODE HERE
+        # CODE HERE (UPDATED EVERY FRAME)
 
         draw_window()
 
 def draw_window():
-    #CODE TO UPDATE DISPLAY
+    # CODE TO UPDATE DISPLAY
     pygame.display.update()
 
 if __name__ == "__main__":
